@@ -43,15 +43,15 @@ Map::Map()
 
 void Map::loadMap(int arr[20][20])
 {
-	for (int row = 0; row < 20; row++) 	
+	for (int row = 0; row < 20; row++)
 	{
 		for (int column = 0; column < 20; column++)
 		{
 			map[row][column] = arr[row][column];
 		}
-	
+
 	}
-}
+};
 
 void Map::DrawMap()
 {
